@@ -6,6 +6,8 @@
 package Persona;
 
 import java.util.Date;
+import Receta.Receta;
+import Sistema_Hospitalario.HistoriaClinica;
 
 /**
  *
@@ -13,6 +15,8 @@ import java.util.Date;
  */
 public class Paciente extends Persona{
     protected String email;
+    protected Receta receta;
+    protected HistoriaClinica historiaClinica;
     
     public Paciente(String usuario, String clave, String nombre, String apellido, String cedula, String direccion, Date fechaNac, String email) {
         super(usuario, clave, nombre, apellido, cedula, direccion, fechaNac);

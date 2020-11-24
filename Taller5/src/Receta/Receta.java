@@ -8,10 +8,12 @@ package Receta;
 import java.time.LocalDateTime;
 import Persona.Paciente;
 import Persona.Doctor;
+import java.util.ArrayList;
 /**
  *
  * @author Matias Vasconez
  */
 public class Receta {
+    protected ArrayList<Medicamento> litaMedicamentos;
     protected LocalDateTime fecha;
 }

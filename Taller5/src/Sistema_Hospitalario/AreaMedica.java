@@ -5,6 +5,7 @@
  */
 package Sistema_Hospitalario;
 import Persona.Doctor;
+import java.util.ArrayList;
 /**
  *
  * @author Matias Vasconez
@@ -12,4 +13,5 @@ import Persona.Doctor;
 public class AreaMedica {
     protected String especialidad;
     protected float costo;
+    protected ArrayList<Doctor> listaDoctores;
 }
