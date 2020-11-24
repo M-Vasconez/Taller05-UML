@@ -6,7 +6,7 @@
 package Persona;
 
 import java.util.Date;
-
+import Persona.Doctor;
 /**
  *
  * @author Matias Vasconez

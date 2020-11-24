@@ -3,19 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
-
+package Sistema_Hospitalario;
+import Persona.Doctor;
 /**
  *
  * @author Matias Vasconez
  */
-public class Taller5 {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
-    
+public class AreaMedica {
+    protected String especialidad;
+    protected float costo;
 }

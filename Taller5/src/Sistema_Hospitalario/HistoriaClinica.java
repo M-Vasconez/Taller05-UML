@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Receta;
+package Sistema_Hospitalario;
 
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 import Persona.Paciente;
-import Persona.Doctor;
 /**
  *
  * @author Matias Vasconez
  */
-public class Receta {
-    protected LocalDateTime fecha;
+public class HistoriaClinica {
+    protected int nro;
+    protected ArrayList enfermedades;
+    protected ArrayList alergias;
+    protected ArrayList otros;
 }

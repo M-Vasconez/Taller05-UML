@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Receta;
+package Sistema_Hospitalario;
 
 import java.time.LocalDateTime;
 import Persona.Paciente;
 import Persona.Doctor;
+import Persona.Secretaria;
 /**
  *
  * @author Matias Vasconez
  */
-public class Receta {
+public class Cita {
     protected LocalDateTime fecha;
+    protected boolean pagado;
+    protected String registradoPor;
 }
